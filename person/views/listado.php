@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="<?= URL_SITE  ?>views/css/estilos.css">
+<link rel="stylesheet" href="<?php URL_SITE  ?>views/css/estilos.css">
 </head>
 <body>
     
@@ -33,4 +33,5 @@
     </div>
 
 </body>
+
 </html>
