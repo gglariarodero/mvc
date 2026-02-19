@@ -1,0 +1,62 @@
+:root {
+    --backgroup-color: #0a3765;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #0a3765 100% );
+    min-height: 90vh;
+
+}
+
+h1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    min-height: 100vh;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    margin: 1rem 0;
+    padding: 16px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    width: 70px;
+    text-align: left;
+    border-bottom: 1px solid #080707;
+    border-left: 1px solid #080707;
+    border-right: 1px solid #080707;
+}
+
+.thead{
+
+    background-color: rgb(57, 130, 232);
+    border-top: 1px solid #080707;
+    border-bottom: 1px solid #080707;
+    border-left: 1px solid #080707;
+    border-right: 1px solid #080707;
+}
+
+.table tr:hover {
+    background: #f5f5f5;
+}
