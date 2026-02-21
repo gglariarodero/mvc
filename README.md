@@ -2,7 +2,7 @@ Crearse una carpeta con el nombre del proyecto "Person" en este caso dentro de h
 Arrancar en el xampp el apache y el mysql.
 Dentro de mysql (en phpmyadmin, accediendo mediante el control admin en la parte de actions del xampp en la linea de mysql) crear la bbdd personas con las sentencias indicadas en el ejercicio o importando el personas.sql.
 
-Ejecutar http://localhost/person/index.php o http://localhost/person
+Ejecutar http://localhost/person/index.php , http://localhost/person o http://localhost/person/index
 
 El proyecto se ha creado en php puro, para evitar tener que instalar componentes de otros frameworks.
 
