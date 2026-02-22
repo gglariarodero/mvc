@@ -6,8 +6,8 @@ class Personas_controller {
 
     public function __construct($pdo) {
 
-        require_once  "models/Personas_model.php";
-        require_once 'config/config.php';
+        require_once "models/Personas_model.php";
+        require_once "config/config.php";
         $this->personaModel = new Personas_model($pdo);
 
     }
@@ -34,3 +34,4 @@ class Personas_controller {
     }
 
 }
+
