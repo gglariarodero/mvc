@@ -10,7 +10,7 @@ class Personas_controller {
         require_once "config/config.php";
         $this->personaModel = new Personas_model($pdo);
 
-    }
+    } 
 
     public function view(){
 
